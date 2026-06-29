@@ -8,10 +8,10 @@ live-lesson 只是一个配置目标)。
 
 **安装(Node ≥ 20):**
 ```bash
-npm i -g https://github.com/nnabuuu/jijian-release/releases/download/jijian-bridge-v0.2.0/kedge-agentic-jijian-bridge-0.2.0.tgz
+npm i -g https://github.com/nnabuuu/jijian-release/releases/download/jijian-bridge-v0.2.2/kedge-agentic-jijian-bridge-0.2.2.tgz
 jijian --version && jijian install && jijian doctor
 ```
-或:`gh release download jijian-bridge-v0.2.0 -R nnabuuu/jijian-release -p '*.tgz' && npm i -g ./kedge-agentic-jijian-bridge-0.2.0.tgz`
+或:`gh release download jijian-bridge-v0.2.2 -R nnabuuu/jijian-release -p '*.tgz' && npm i -g ./kedge-agentic-jijian-bridge-0.2.2.tgz`
 
 上手:`jijian install` → 编辑 `~/.jijian/config.json` 的 target(ccaasUrl + artifactUrl)→ `jijian login`
 → `jijian serve` → 在即见网页点「接入本项目」。兼容性见 Release 里的 `COMPATIBILITY.md`(也在 tarball 内)。
