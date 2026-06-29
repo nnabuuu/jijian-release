@@ -8,10 +8,10 @@ live-lesson 只是一个配置目标)。
 
 **安装(Node ≥ 20):**
 ```bash
-npm i -g https://github.com/nnabuuu/jijian-release/releases/download/jijian-bridge-v0.2.6/kedge-agentic-jijian-bridge-0.2.6.tgz
+npm i -g https://github.com/nnabuuu/jijian-release/releases/download/jijian-bridge-v0.2.7/kedge-agentic-jijian-bridge-0.2.7.tgz
 jijian --version && jijian install && jijian doctor
 ```
-或:`gh release download jijian-bridge-v0.2.6 -R nnabuuu/jijian-release -p '*.tgz' && npm i -g ./kedge-agentic-jijian-bridge-0.2.6.tgz`
+或:`gh release download jijian-bridge-v0.2.7 -R nnabuuu/jijian-release -p '*.tgz' && npm i -g ./kedge-agentic-jijian-bridge-0.2.7.tgz`
 
 > 装完 `jijian: command not found`?**asdf** 用户需 `asdf reshim nodejs`(对所有全局 npm 工具都这样);**nvm** 装到当前激活的 node 版本;**普通 node** 直接可用。验证 `jijian --version`。
 
