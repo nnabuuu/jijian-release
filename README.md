@@ -13,6 +13,8 @@ jijian --version && jijian install && jijian doctor
 ```
 或:`gh release download jijian-bridge-v0.2.2 -R nnabuuu/jijian-release -p '*.tgz' && npm i -g ./kedge-agentic-jijian-bridge-0.2.2.tgz`
 
+> 装完 `jijian: command not found`?**asdf** 用户需 `asdf reshim nodejs`(对所有全局 npm 工具都这样);**nvm** 装到当前激活的 node 版本;**普通 node** 直接可用。验证 `jijian --version`。
+
 上手:`jijian install` → 编辑 `~/.jijian/config.json` 的 target(ccaasUrl + artifactUrl)→ `jijian login`
 → `jijian serve` → 在即见网页点「接入本项目」。兼容性见 Release 里的 `COMPATIBILITY.md`(也在 tarball 内)。
 
