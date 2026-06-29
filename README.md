@@ -8,14 +8,14 @@ live-lesson 只是一个配置目标)。
 
 **安装(Node ≥ 20):**
 ```bash
-npm i -g https://github.com/nnabuuu/jijian-release/releases/download/jijian-bridge-v0.2.2/kedge-agentic-jijian-bridge-0.2.2.tgz
+npm i -g https://github.com/nnabuuu/jijian-release/releases/download/jijian-bridge-v0.2.3/kedge-agentic-jijian-bridge-0.2.3.tgz
 jijian --version && jijian install && jijian doctor
 ```
-或:`gh release download jijian-bridge-v0.2.2 -R nnabuuu/jijian-release -p '*.tgz' && npm i -g ./kedge-agentic-jijian-bridge-0.2.2.tgz`
+或:`gh release download jijian-bridge-v0.2.3 -R nnabuuu/jijian-release -p '*.tgz' && npm i -g ./kedge-agentic-jijian-bridge-0.2.3.tgz`
 
 > 装完 `jijian: command not found`?**asdf** 用户需 `asdf reshim nodejs`(对所有全局 npm 工具都这样);**nvm** 装到当前激活的 node 版本;**普通 node** 直接可用。验证 `jijian --version`。
 
-上手:`jijian install` → 编辑 `~/.jijian/config.json` 的 target(ccaasUrl + artifactUrl)→ `jijian login`
-→ `jijian serve` → 在即见网页点「接入本项目」。兼容性见 Release 里的 `COMPATIBILITY.md`(也在 tarball 内)。
+上手:`jijian install`(装常驻同步桥 launchd/systemd)→ `jijian config` 配 target → `jijian login`(登录后常驻桥自动挂上)
+→ 之后在即见网页右上角点「连接」即可,**零命令**。兼容性见 Release 里的 `COMPATIBILITY.md`(也在 tarball 内)。
 
 <!-- 未来的即见工具作为新 section + 新 Release tag 追加于此 -->
